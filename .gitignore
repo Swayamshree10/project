@@ -1,6 +1,10 @@
-# Root .gitignore — excludes build artifacts, secrets, and OS files
+# Root .gitignore
 node_modules/
 .env
 .env.local
+**/.env
+**/.env.local
 dist/
 .DS_Store
+rag-server/.env
+server/src/.env
