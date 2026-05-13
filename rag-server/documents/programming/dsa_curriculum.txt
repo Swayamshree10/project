@@ -1,0 +1,65 @@
+DATA STRUCTURES AND ALGORITHMS - PROGRAMMING CURRICULUM
+========================================================
+
+CHAPTER 1: TIME AND SPACE COMPLEXITY
+--------------------------------------
+
+Big O Notation:
+Describes the upper bound of an algorithm's growth rate.
+Common complexities (best to worst):
+O(1) - Constant: array access
+O(log n) - Logarithmic: binary search
+O(n) - Linear: linear search
+O(n log n) - Linearithmic: merge sort, quicksort (average)
+O(n²) - Quadratic: bubble sort, insertion sort
+O(2ⁿ) - Exponential: recursive fibonacci
+
+CHAPTER 2: SORTING ALGORITHMS
+-------------------------------
+
+Quicksort:
+- Divide and conquer algorithm
+- Pick a pivot, partition array around pivot
+- Average time complexity: O(n log n)
+- Worst case: O(n²) when pivot is always smallest/largest
+- Space complexity: O(log n) average
+
+Merge Sort:
+- Divide array into halves, sort each half, merge
+- Time complexity: O(n log n) always
+- Space complexity: O(n)
+- Stable sort
+
+CHAPTER 3: DATA STRUCTURES
+----------------------------
+
+Linked List:
+A linear data structure where elements are stored in nodes.
+Each node contains data and a pointer to the next node.
+Types: Singly, Doubly, Circular
+Operations: Insert O(1) at head, Search O(n), Delete O(n)
+
+Binary Search Tree (BST):
+A tree where left child < parent < right child.
+Average operations: O(log n) for search, insert, delete
+Worst case (skewed): O(n)
+
+Hash Table:
+Uses a hash function to map keys to indices.
+Average operations: O(1) for insert, search, delete
+Collision resolution: chaining, open addressing
+Load factor = n/m (n = elements, m = slots)
+
+CHAPTER 4: DYNAMIC PROGRAMMING
+--------------------------------
+
+Dynamic Programming (DP):
+Technique to solve problems by breaking into overlapping subproblems.
+Two approaches:
+1. Memoization (top-down): cache results of recursive calls
+2. Tabulation (bottom-up): fill table iteratively
+
+Classic DP Problems:
+- Fibonacci: F(n) = F(n-1) + F(n-2), O(n) with DP vs O(2ⁿ) naive
+- Knapsack: maximize value within weight limit
+- Longest Common Subsequence (LCS)

@@ -1,0 +1,59 @@
+DBMS - DATABASE MANAGEMENT SYSTEMS CURRICULUM
+=============================================
+
+CHAPTER 1: RELATIONAL MODEL
+-----------------------------
+
+Keys:
+- Primary Key: uniquely identifies each record in a table
+- Foreign Key: references primary key of another table
+- Candidate Key: minimal set of attributes that uniquely identifies a tuple
+- Super Key: any set of attributes that uniquely identifies a tuple
+
+CHAPTER 2: NORMALIZATION
+--------------------------
+
+Normalization is the process of organizing a database to reduce redundancy and improve data integrity.
+
+First Normal Form (1NF):
+- Each column contains atomic (indivisible) values
+- Each column contains values of a single type
+- Each row is unique
+
+Second Normal Form (2NF):
+- Must be in 1NF
+- No partial dependency: every non-key attribute must depend on the whole primary key
+- Applies only when primary key is composite
+
+Third Normal Form (3NF):
+- Must be in 2NF
+- No transitive dependency: non-key attributes must not depend on other non-key attributes
+- Example: if A→B and B→C, then A→C is a transitive dependency (remove it)
+
+Boyce-Codd Normal Form (BCNF):
+- Stronger version of 3NF
+- For every functional dependency X→Y, X must be a superkey
+
+CHAPTER 3: SQL
+---------------
+
+Basic Queries:
+SELECT column FROM table WHERE condition;
+JOIN: combines rows from two or more tables
+INNER JOIN: returns matching rows from both tables
+LEFT JOIN: returns all rows from left table + matching from right
+GROUP BY: groups rows sharing a property
+HAVING: filters groups (like WHERE but for GROUP BY)
+
+CHAPTER 4: TRANSACTIONS
+------------------------
+
+ACID Properties:
+- Atomicity: transaction is all-or-nothing
+- Consistency: database remains in valid state before and after transaction
+- Isolation: concurrent transactions do not interfere
+- Durability: committed transactions persist even after system failure
+
+Concurrency Control:
+- Two-Phase Locking (2PL): growing phase (acquire locks) + shrinking phase (release locks)
+- Deadlock in DBMS: two transactions waiting for each other's locks

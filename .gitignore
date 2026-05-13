@@ -1,0 +1,6 @@
+# Root .gitignore — excludes build artifacts, secrets, and OS files
+node_modules/
+.env
+.env.local
+dist/
+.DS_Store

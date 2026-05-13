@@ -1,0 +1,57 @@
+ELECTRONICS ENGINEERING CURRICULUM
+====================================
+
+CHAPTER 1: CIRCUIT THEORY
+---------------------------
+
+Ohm's Law: V = IR
+Kirchhoff's Current Law (KCL): Sum of currents entering a node = sum leaving
+Kirchhoff's Voltage Law (KVL): Sum of voltages around a closed loop = 0
+
+Series and Parallel Circuits:
+Series resistance: R_total = R1 + R2 + R3
+Parallel resistance: 1/R_total = 1/R1 + 1/R2 + 1/R3
+
+Capacitors:
+Charge: Q = CV
+Energy stored: E = ½CV²
+In AC circuits: Xc = 1/(2πfC) — capacitive reactance
+
+Inductors:
+Voltage: V = L(dI/dt)
+Energy stored: E = ½LI²
+In AC circuits: XL = 2πfL — inductive reactance
+
+CHAPTER 2: DIGITAL ELECTRONICS
+--------------------------------
+
+Logic Gates:
+AND: output is 1 only if all inputs are 1
+OR: output is 1 if any input is 1
+NOT: inverts input
+NAND, NOR: universal gates (can implement any logic)
+XOR: output is 1 if inputs are different
+
+Boolean Algebra:
+De Morgan's Theorem:
+- NOT(A AND B) = NOT(A) OR NOT(B)
+- NOT(A OR B) = NOT(A) AND NOT(B)
+
+Number Systems:
+Binary (base 2), Octal (base 8), Hexadecimal (base 16)
+Binary to Decimal: 1011 = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 11
+
+CHAPTER 3: SEMICONDUCTOR DEVICES
+----------------------------------
+
+Diode:
+- Allows current in one direction only
+- Forward bias: current flows, voltage drop ~0.7V (silicon)
+- Reverse bias: no current (until breakdown)
+- Applications: rectifiers, clippers, clampers
+
+Transistor (BJT):
+- NPN and PNP types
+- Three regions: active, saturation, cutoff
+- Used as amplifier (active region) or switch (saturation/cutoff)
+- Current gain: β = IC/IB

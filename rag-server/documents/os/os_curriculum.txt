@@ -1,0 +1,68 @@
+OPERATING SYSTEMS - ENGINEERING CURRICULUM
+==========================================
+
+CHAPTER 1: PROCESS MANAGEMENT
+-------------------------------
+
+Process States:
+A process can be in one of five states:
+1. New - process is being created
+2. Ready - process is waiting to be assigned to a processor
+3. Running - instructions are being executed
+4. Waiting - process is waiting for some event (I/O completion)
+5. Terminated - process has finished execution
+
+Deadlock:
+A deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource held by another process.
+
+Four Necessary Conditions for Deadlock (Coffman Conditions):
+1. Mutual Exclusion: At least one resource must be held in a non-shareable mode
+2. Hold and Wait: A process holding at least one resource is waiting to acquire additional resources
+3. No Preemption: Resources cannot be forcibly taken from a process
+4. Circular Wait: A set of processes {P0, P1, ..., Pn} where P0 waits for P1, P1 waits for P2, ..., Pn waits for P0
+
+Deadlock Prevention:
+- Eliminate Mutual Exclusion: make resources shareable where possible
+- Eliminate Hold and Wait: require processes to request all resources at once
+- Allow Preemption: if a process requests a resource not available, release all held resources
+- Eliminate Circular Wait: impose a total ordering on resource types
+
+Deadlock Detection and Recovery:
+- Resource Allocation Graph (RAG) is used to detect deadlocks
+- Recovery: process termination or resource preemption
+
+CHAPTER 2: MEMORY MANAGEMENT
+------------------------------
+
+Paging:
+Divides physical memory into fixed-size frames and logical memory into pages of the same size.
+Page Table maps logical page numbers to physical frame numbers.
+Internal fragmentation may occur.
+
+Segmentation:
+Divides memory into variable-size segments based on logical divisions (code, stack, heap).
+External fragmentation may occur.
+
+Virtual Memory:
+Allows execution of processes not completely in memory.
+Uses demand paging — pages loaded only when needed.
+Page Fault: occurs when a referenced page is not in memory.
+
+Page Replacement Algorithms:
+- FIFO: replace the oldest page
+- LRU (Least Recently Used): replace the page not used for the longest time
+- Optimal: replace the page that will not be used for the longest time in future
+
+CHAPTER 3: CPU SCHEDULING
+---------------------------
+
+Scheduling Algorithms:
+1. FCFS (First Come First Serve): non-preemptive, simple but convoy effect
+2. SJF (Shortest Job First): minimum average waiting time, can cause starvation
+3. Round Robin: preemptive, time quantum based, good for time-sharing
+4. Priority Scheduling: each process has a priority, starvation possible
+
+Key Metrics:
+- Turnaround Time = Completion Time - Arrival Time
+- Waiting Time = Turnaround Time - Burst Time
+- Response Time = First Response - Arrival Time

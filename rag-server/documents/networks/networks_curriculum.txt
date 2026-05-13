@@ -1,0 +1,58 @@
+COMPUTER NETWORKS CURRICULUM
+=============================
+
+CHAPTER 1: OSI MODEL
+----------------------
+
+The OSI (Open Systems Interconnection) model has 7 layers:
+1. Physical: transmission of raw bits over a medium
+2. Data Link: node-to-node delivery, MAC addresses, error detection (Ethernet)
+3. Network: logical addressing, routing (IP, ICMP)
+4. Transport: end-to-end delivery, flow control (TCP, UDP)
+5. Session: manages sessions between applications
+6. Presentation: data translation, encryption, compression
+7. Application: network services to end users (HTTP, FTP, DNS, SMTP)
+
+TCP vs UDP:
+TCP (Transmission Control Protocol):
+- Connection-oriented (3-way handshake: SYN, SYN-ACK, ACK)
+- Reliable, ordered, error-checked delivery
+- Flow control and congestion control
+- Used for: HTTP, FTP, email
+
+UDP (User Datagram Protocol):
+- Connectionless
+- No guarantee of delivery or ordering
+- Faster, lower overhead
+- Used for: video streaming, DNS, gaming
+
+CHAPTER 2: IP ADDRESSING
+--------------------------
+
+IPv4: 32-bit address, written as 4 octets (e.g. 192.168.1.1)
+Subnet Mask: determines network and host portions
+CIDR Notation: 192.168.1.0/24 means 24 bits for network
+
+Classes:
+Class A: 1.0.0.0 to 126.255.255.255 (/8)
+Class B: 128.0.0.0 to 191.255.255.255 (/16)
+Class C: 192.0.0.0 to 223.255.255.255 (/24)
+
+CHAPTER 3: ROUTING
+--------------------
+
+Static Routing: manually configured routes
+Dynamic Routing Protocols:
+- RIP (Routing Information Protocol): distance vector, max 15 hops
+- OSPF (Open Shortest Path First): link state, uses Dijkstra's algorithm
+- BGP (Border Gateway Protocol): used between autonomous systems on the internet
+
+CHAPTER 4: HTTP AND DNS
+------------------------
+
+HTTP Methods: GET, POST, PUT, DELETE, PATCH
+Status Codes: 200 OK, 301 Redirect, 404 Not Found, 500 Server Error
+
+DNS (Domain Name System):
+Translates domain names to IP addresses.
+Resolution order: browser cache → OS cache → resolver → root → TLD → authoritative

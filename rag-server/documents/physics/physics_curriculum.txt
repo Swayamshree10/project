@@ -1,0 +1,72 @@
+PHYSICS - ENGINEERING CURRICULUM
+==================================
+
+CHAPTER 1: MECHANICS
+---------------------
+
+Newton's Laws of Motion:
+
+Newton's First Law (Law of Inertia):
+A body remains at rest or in uniform motion in a straight line unless acted upon by an external force.
+
+Newton's Second Law:
+The rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction of the force.
+Formula: F = ma
+Where F = Force (Newtons), m = mass (kg), a = acceleration (m/s²)
+Example: A 5kg object accelerates at 3 m/s². Force = 5 × 3 = 15 N
+
+Newton's Third Law:
+For every action, there is an equal and opposite reaction.
+Example: A rocket expels gas downward (action), the rocket moves upward (reaction).
+
+Work, Energy and Power:
+Work = Force × Displacement × cos(θ)
+W = Fd cos θ (Joules)
+Kinetic Energy: KE = ½mv²
+Potential Energy: PE = mgh
+Power: P = W/t = Fv (Watts)
+
+Conservation of Energy:
+Total mechanical energy = KE + PE = constant (in absence of friction)
+
+CHAPTER 2: WAVES AND OPTICS
+-----------------------------
+
+Wave Properties:
+- Wavelength (λ): distance between two consecutive crests
+- Frequency (f): number of waves per second (Hz)
+- Wave speed: v = fλ
+- Period: T = 1/f
+
+Snell's Law of Refraction:
+n₁ sin θ₁ = n₂ sin θ₂
+Where n = refractive index
+
+CHAPTER 3: THERMODYNAMICS
+---------------------------
+
+Laws of Thermodynamics:
+First Law: Energy cannot be created or destroyed. ΔU = Q - W
+Second Law: Heat flows from hot to cold. Entropy of an isolated system always increases.
+Third Law: Entropy approaches zero as temperature approaches absolute zero.
+
+Ideal Gas Law:
+PV = nRT
+Where P = pressure, V = volume, n = moles, R = 8.314 J/mol·K, T = temperature (K)
+
+CHAPTER 4: ELECTROMAGNETISM
+-----------------------------
+
+Coulomb's Law:
+F = kq₁q₂/r²
+k = 9 × 10⁹ N·m²/C²
+
+Electric Field:
+E = F/q = kQ/r²
+
+Ohm's Law:
+V = IR
+Where V = voltage (Volts), I = current (Amperes), R = resistance (Ohms)
+
+Power in circuits:
+P = VI = I²R = V²/R
