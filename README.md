@@ -121,15 +121,6 @@ Mind-Trail/
 
 ---
 
-## 🎨 Themes
-
-| Theme | Description |
-|-------|-------------|
-| 🌑 **Dark** | Deep indigo/purple dark theme |
-| 🚀 **Antigravity** | Cyan/teal sci-fi space theme with scanlines |
-| ☀️ **Light** | Clean white with indigo accents |
-
----
 
 
 
