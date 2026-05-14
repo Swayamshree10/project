@@ -131,11 +131,6 @@ Mind-Trail/
 
 ---
 
-## 📸 Screenshots
-
-> Login Page · Onboarding · Chat · Quiz · Flashcards · Roadmap · Progress
-
----
 
 
 
