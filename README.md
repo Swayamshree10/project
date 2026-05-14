@@ -1,18 +1,4 @@
-# 🧠 Mind Trail — AI-Powered Engineering Learning Platform
-
-<div align="center">
-
-![Mind Trail](https://img.shields.io/badge/Mind%20Trail-AI%20Learning-6366f1?style=for-the-badge&logo=brain&logoColor=white)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NVIDIA NIM](https://img.shields.io/badge/NVIDIA-NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FastAPI-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Your personalized AI tutor for engineering students**
-
-</div>
-
----
+# 🧠 Mind Trail-AI-Powered Engineering Learning Platform
 
 ## ✨ Features
 
@@ -151,13 +137,5 @@ Mind-Trail/
 
 ---
 
-## 👨‍💻 Author
 
-**Swayamshree Nayak**
-- GitHub: [@Swayamshree10](https://github.com/Swayamshree10)
 
----
-
-<div align="center">
-Made with ❤️ and AI
-</div>
